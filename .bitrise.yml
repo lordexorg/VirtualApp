@@ -1,7 +1,8 @@
 - script@1:
-    title: Switch Java Version
+    title: Switch to Java 11
     inputs:
       - content: |
+          echo "Switching Java to 11..."
           export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
           export PATH=$JAVA_HOME/bin:$PATH
           java -version
